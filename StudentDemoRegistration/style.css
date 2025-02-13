@@ -1,0 +1,127 @@
+/* Custom styles for the table headers */
+.thead-dark th {
+    background-color: #343a40; 
+    color: white; 
+  }
+  
+  .table td {
+    vertical-align: middle; 
+    text-align: left; 
+  }
+  
+  .btn-register:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    padding-left: 5%;
+    margin-left: 10%;
+    width: 10px;
+  }
+  .btn-page:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+    
+  }
+  .form-control {
+    background-color: #f4f7f8; 
+    border: 1px solid #ced4da; 
+    margin-left: 25%;
+    margin-top: -30px;
+    max-width: 40%; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .form-group {
+    margin-left: 15%;
+    
+    }
+  .btn-group{
+    margin-left: 15%;
+  }
+
+  label{
+      margin-right: 2%;
+      margin-left: 5%;
+      margin-top: 2%;
+      
+     
+    }
+  /* Style for error messages */
+  .error {
+    color: #b19cd9; /* Pastel purple text color */
+    margin-left: 5%;
+  }
+  
+  /* Style for the 'Register' button */
+  .btn-page {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    border-color: #ced4da; 
+    margin-bottom: 2%;
+    margin-left: 20%;
+    border-radius: 10px;
+  }
+  
+  /* Style for the 'page' button */
+  .btn-register {
+    background-color: #f8f9fa; 
+    color: #343a40; 
+    border-color: #ced4da; 
+    margin-bottom: 2%;
+    margin-left: 20%;
+    border-radius: 10px;
+  }
+
+  body{
+    
+    background-color:rgb(207, 229, 238);
+  }
+
+  article {
+    background-color: rgba(230, 244, 199, 0.785);
+    padding: 3%;
+    padding-left: 5%;
+    margin-left: 25%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    max-width: 50%;
+  }
+
+  
+ table{
+    max-width: 80%; 
+    margin-left: 10%;
+    margin-top: 3%; 
+ }
+ h1{
+  padding-top: 4%;
+  text-align: center;
+ }
+h2 {
+    padding-left: 19%;
+    padding-bottom: 5%;
+}
+p{
+    margin-left: 15%; 
+}
+
+.bordered-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders to avoid doubled borders */
+}
+
+.bordered-table th, .bordered-table td {
+  border: 1px solid black; /* Set border for each cell */
+  padding: 8px 12px; /* Padding inside each cell */
+  text-align: center; /* Text alignment in cells */
+  vertical-align: middle; 
+}
+
+.bordered-table th {
+  background-color: #343a40; 
+  color: white; 
+}
+
+.bordered-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
