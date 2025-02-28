@@ -5,6 +5,6 @@ Technologies Used:
 
 * HTML & CSS – For structure and styling.
 
-* PHP – For server-side processing.
+* PHP – For server-side processing and database integration.
 
 This form ensures a smooth and organized registration experience for both students and administrators. 🚀
